@@ -17,7 +17,7 @@ from sklearn.metrics import roc_auc_score
 
 C = 1.0
 n_splits = 5
-output_file = f'models/model_C={C}.bin'
+output_file = f'models_weights/model_C={C}.bin'
 
 # data preparation
 

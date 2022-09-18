@@ -1,9 +1,8 @@
 import pickle
-
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.linear_model import LogisticRegression
 
-model_file = 'models/model_C=1.0.bin'
+model_file = 'models_weights/model_C=1.0.bin'
 
 with open(model_file, 'rb') as f_in:
     dv, model = pickle.load(f_in)
